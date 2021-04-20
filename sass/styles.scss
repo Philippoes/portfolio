@@ -1,0 +1,58 @@
+@charset "utf-8";
+
+
+// Import a Google Font
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
+
+// Set your brand colors
+$orange: #FF5C00;
+$pink: #FA7C91;
+$brown: #757763;
+$beige-light: #D0D1CD;
+$beige-lighter: #EFF0EB;
+
+// Update Bulma's global variables
+$family-sans-serif: "Nunito", sans-serif;
+$grey-dark: $brown;
+$grey-light: $beige-light;
+$primary: $orange;
+$link: $orange;
+$widescreen-enabled: false;
+$fullhd-enabled: false;
+
+$navbar-padding-vertical: 5rem;
+$navbar-height: 5rem;
+$navbar-item-img-max-height: 4rem;
+
+// Update some of Bulma's component variables
+$control-border-width: 2px;
+$input-border-color: transparent;
+$input-shadow: none;
+
+// Import only what you need from Bulma
+@import "../node_modules/bulma/bulma.sass";
+
+//classes
+.is-light {
+  color: white;
+}
+
+.is-primary {
+  background-color: $primary
+}
+.avatar {
+  max-height: 10rem;
+  margin: 2rem 0;
+}
+
+.content ul {
+  list-style: none;
+}
+
+.skills {
+  margin-top: -7rem;
+  padding-bottom: 1rem;
+}
+.hero {
+  padding-top: 2rem;
+}

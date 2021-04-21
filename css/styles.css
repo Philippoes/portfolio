@@ -7206,6 +7206,9 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   margin-bottom: 1rem;
   max-height: 6rem; }
 
+.is-logo {
+  max-height: 4rem; }
+
 .is-primary {
   background-color: #FF5C00; }
 
@@ -7269,7 +7272,7 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   overflow: hidden;
   border-radius: 4px; }
 
-.projects .project-grid figure img.project-thumb {
+.projects .project-grid figure img.thumbnail {
   -webkit-transform: scale(1);
   transform: scale(1);
   -webkit-transition: .25s ease-in-out;

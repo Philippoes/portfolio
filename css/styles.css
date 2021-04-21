@@ -7235,18 +7235,20 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   padding-top: 2rem; }
 
 #citroen {
-  background-image: url("../assets/IMG_3467.JPG"); }
+  background-image: url("../assets/2cv.jpg"); }
 
 #india {
-  background-image: url("../assets/IMG_0275.jpg"); }
+  background-image: url("../assets/india.jpg"); }
 
 #mountain {
-  background-image: url("../assets/IMG_3806.JPG"); }
+  background-image: url("../assets/mountain.jpg"); }
 
 .fun {
   margin-bottom: 5rem !important; }
 
 .image-block {
+  padding-left: 2rem;
+  padding-right: 2rem;
   padding-top: 10rem;
   padding-bottom: 10rem;
   background-size: cover; }

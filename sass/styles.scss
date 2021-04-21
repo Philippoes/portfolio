@@ -36,10 +36,15 @@ $input-shadow: none;
 .is-light {
   color: white;
 }
-
+.is-skill-icon{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  max-height: 6rem;
+}
 .is-primary {
   background-color: $primary
 }
+
 .avatar {
   max-height: 10rem;
   margin: 2rem 0;
@@ -47,12 +52,43 @@ $input-shadow: none;
 
 .content ul {
   list-style: none;
+  margin: 0;
+}
+
+.my-work {
+  padding-bottom: 10rem;
 }
 
 .skills {
   margin-top: -7rem;
-  padding-bottom: 1rem;
+  padding-bottom: 2rem;
+  .column {
+    border-right: 1px solid #E6ECF8;
+  }
+
+  .column:last-child {
+    border-right: none;
+  }
 }
+
 .hero {
   padding-top: 2rem;
+}
+
+#citroen {
+  background-image: url("../assets/IMG_3467.JPG");
+}
+
+#india {
+  background-image: url("../assets/IMG_0275.jpg");
+}
+
+#mountain {
+  background-image: url("../assets/IMG_3806.JPG");
+}
+
+.image-block {
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+  background-size: cover;
 }

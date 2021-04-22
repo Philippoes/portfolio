@@ -14,8 +14,8 @@ $grey-dark: $brown;
 $grey-light: $beige-light;
 $primary: $orange;
 $link: $orange;
-$widescreen-enabled: false;
-$fullhd-enabled: false;
+$widescreen-enabled: true;
+$fullhd-enabled: true;
 $navbar-padding-vertical: 5rem;
 $navbar-height: 5rem;
 $navbar-item-img-max-height: 4rem;
@@ -28,10 +28,6 @@ $input-shadow: none;
 //classes
 .is-light {
   color: white;
-}
-
-.navbar > .container {
-  max-width: 1280px;
 }
 
 .is-skill-icon {
@@ -89,6 +85,12 @@ $input-shadow: none;
 
 #mountain {
   background-image: url("../assets/images/mountain.jpg");
+}
+
+@media screen {
+  .fun-things .container {
+    max-width: 100% !important;
+  }
 }
 
 .fun {

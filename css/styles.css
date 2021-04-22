@@ -7805,9 +7805,8 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 #mountain {
   background-image: url("../assets/images/mountain.jpg"); }
 
-@media screen {
-  .fun-things .container {
-    max-width: 100% !important; } }
+.fun-things {
+  padding: 3rem 1rem; }
 
 .fun {
   margin-bottom: 5rem !important; }

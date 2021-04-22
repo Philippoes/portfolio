@@ -87,10 +87,8 @@ $input-shadow: none;
   background-image: url("../assets/images/mountain.jpg");
 }
 
-@media screen {
-  .fun-things .container {
-    max-width: 100% !important;
-  }
+.fun-things {
+  padding: 3rem 1rem;
 }
 
 .fun {
@@ -133,7 +131,6 @@ $input-shadow: none;
   .projects .project-grid {
     padding-top: 4rem;
   }
-
   .projects .project-grid figure figcaption {
     padding: 0 2rem;
   }

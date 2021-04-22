@@ -7391,6 +7391,9 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 .whatsapp span {
   background-color: #075e54; }
 
+.medium span {
+  background-color: #00ab6c; }
+
 /* Icons */
 .icon-button i {
   background: none;
@@ -7421,6 +7424,9 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 
 .icon-button .fa-discord {
   color: #7289da; }
+
+.icon-button .fa-medium {
+  color: #00ab6c; }
 
 .icon-button .fa-instagram {
   color: transparent;

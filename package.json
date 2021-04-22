@@ -16,6 +16,5 @@
     "@fortawesome/fontawesome-free": "^5.15.3",
     "bulma": "^0.9.2",
     "node-sass": "^5.0.0"
-  },
-  "dependencies": {}
+  }
 }

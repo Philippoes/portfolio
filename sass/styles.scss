@@ -114,9 +114,26 @@ $input-shadow: none;
 .projects .project-grid {
   padding: 2rem 0 4rem;
 }
+
+//Mobile specific
+@media screen and (max-width: 768px) {
+  .skills {
+    margin-top: -5rem;
+  }
+
+  .experiences {
+    margin-top: -5rem;
+  }
+}
+
+//Tablet + Desktop
 @media screen and (min-width: 769px) {
   .projects .project-grid {
     padding-top: 4rem;
+  }
+
+  .projects .project-grid figure figcaption {
+    padding: 0 2rem;
   }
 }
 
@@ -144,11 +161,6 @@ $input-shadow: none;
   padding: 0 3rem;
   color: #fff;
   z-index: 1;
-}
-@media screen and (min-width: 769px) {
-  .projects .project-grid figure figcaption {
-    padding: 0 2rem;
-  }
 }
 
 .projects .project-grid figure figcaption .tags {
